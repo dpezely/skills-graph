@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title><!-- TMPL_VAR title --></title>
+    <link rel="stylesheet" type="text/css" href="resume.css">
+    <script language='javascript'>
+      function updateBanner(content, color) {
+          var div = document.getElementById('banner');
+          div.style.backgroundColor = color;
+          div.innerHTML = content;
+      }
+    </script>
+    <style type='text/css'>
+      #banner {
+          position: fixed;
+          padding: 0.25em;
+          left: 16px;
+          top: 16px;
+          background: #F00;
+          color: white;
+      }
+      body { font-family: sans-serif }
+      @media print {
+        #banner {display:none}
+        img {width:100%}
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id='banner'>Mouse over for details</div>
+    <br><br><br>
+  
