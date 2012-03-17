@@ -1,0 +1,28 @@
+When generating a new Streamgraph:
+
+* Edit Content
+Review & update =languages.csv= file.
+
+* Dependencies other than SBCL & Quicklisp
+: git clone https://github.com/xach/wormtrails.git
+: git clone https://github.com/xach/geometry.git
+: sbcl --eval "(mapcar 'ql:quickload '(vecto zpb-ttf html-template split-sequence))" --eval '(quit)'
+: sbcl --eval "(require 'wormtrails)" --eval '(quit)'
+
+* Run program
+This generates =skills.png= and =skills.html= fragment:
+
+: sbcl --load streamgraph.lisp --eval '(quit)'
+
+* Finish .html
+Append closing HTML tags:
+
+: cat skills-annotation.html >> skills.html
+
+* Edit Parameters
+Color selection changes depending upon number of total data points, not
+unique labels.  Color values therefore seem to be hit or miss, but actually,
+it's based upon a 360 degree color wheel within the HSV space, locked-down
+to the hue dimension.  Using multiples of golden ration 1.618 seem to offer
+fairness in color diversity, but experimentation is required for each year's
+set of values.
