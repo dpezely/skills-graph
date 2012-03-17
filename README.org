@@ -1,20 +1,26 @@
-When generating a new Streamgraph:
+* Intro
+This is an example of [[http://www.xach.com/][Xach]]'s [[https://github.com/xach/wormtrails][wormtrails]] illustrating skills over time.
 
-* Edit Content
-Review & update =languages.csv= file.
+See generated streamgraph on [[http://pezely.com/daniel/][pezely.com/daniel]].
 
-* Dependencies other than SBCL & Quicklisp
+* Generating a new Streamgraph
+This has only been tested with [[http://sbcl.org/platform-table.html][SBCL]] compiler and packages installed by [[http://www.quicklisp.org/][Quicklisp]].
+
+** Dependencies other than SBCL & Quicklisp
 : git clone https://github.com/xach/wormtrails.git
 : git clone https://github.com/xach/geometry.git
 : sbcl --eval "(mapcar 'ql:quickload '(vecto zpb-ttf html-template split-sequence))" --eval '(quit)'
 : sbcl --eval "(require 'wormtrails)" --eval '(quit)'
 
-* Run program
+** Edit Content
+Review & update =languages.csv= file.
+
+** Run program
 This generates =skills.png= and =skills.html= fragment:
 
 : sbcl --load streamgraph.lisp --eval '(quit)'
 
-* Finish .html
+** Finish .html
 Append closing HTML tags:
 
 : cat skills-annotation.html >> skills.html
