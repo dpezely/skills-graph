@@ -1,0 +1,173 @@
+Year,Language,Dialect,Version, Mastery,Weeks,Hours-per-Week,Complexity,Power
+1982,BASIC,Sinclair BASIC,,		1,26,5,1,1
+1983,BASIC,Sinclair BASIC,,		1,42,5,1,1
+1982,BASIC,Atari BASIC,,		2,15,3,1,1
+1983,BASIC,Atari BASIC,,		2,15,3,1,1
+1983,BASIC,TI BASIC,,			2,20,16,2,1
+1984,BASIC,TI BASIC,,			3,20,16,3,1
+1985,BASIC,Commodore PET BASIC,,	3,15,3,2,1
+1986,BASIC,Commodore PET BASIC,,	4,15,3,2,1
+1985,BASIC,GW-BASIC,,			4,26,16,2,1
+1986,BASIC,GW-BASIC,,			5,26,16,3,1
+1985,Pascal,Turbo Pascal,3.0,		2,10,20,2,3
+1986,Pascal,Turbo Pascal,3.0,		4,50,20,3,3
+1987,Pascal,Turbo Pascal,4.0,		5,10,5,4,3
+1987,C,C,K&R,				2,40,20,3,9
+1988,C,C,K&R,				3,50,30,5,9
+1989,C,C,K&R,				4,30,20,6,9
+1990,C,C,ANSI C,			5,30,15,6,9
+1991,C,C,ANSI C,			6,20,20,7,9
+1992,C,C,ANSI C,			7,30,30,8,9
+1993,C,C,ANSI C,			7,50,20,9,9
+1994,C,C,ANSI C,			8,50,10,5,9
+1995,C,C,ANSI C,			8,12,35,8,9
+1996,C,C,ANSI C,			8,50,20,7,9
+1997,C,C,ANSI C,			8,50,20,7,9
+1998,C,C,ANSI C,			8,50,30,8,9
+1999,C,C,ANSI C,			8,20,20,6,9
+2000,C,C,ANSI C,			8,20,9,6,9
+2001,C,C,C99,				8,20,5,5,9
+2002,C,C,C99,				7,9,5,4,9
+2003,C,C,C99,				6,0,0,0,0
+2004,C,C,C99,				5,0,0,0,0
+2005,C,C,C99,				6,9,9,5,9
+2006,C,C,C99,				8,20,25,7,9
+2007,C,C,C99,				7,9,5,5,9
+2008,C,C,C99,				6,0,0,0,0
+2009,C,C,C99,				6,0,0,0,0
+2010,C,C,C99,				6,5,9,5,9
+2011,C,C,C99,				6,2,5,5,9
+1987,shell,sh,Xenix,			2,5,10,2,3
+1988,shell,csh,BSD,			2,40,5,3,3
+1989,shell,csh,BSD & SunOS,		4,50,40,5,3
+1990,shell,csh,BSD & SunOS,		4,20,10,3,3
+1991,shell,Bash,,			4,20,10,5,4
+1992,shell,Bash,,			4,40,10,5,4
+1993,shell,csh,SunOS,			5,40,5,7,3
+1994,shell,csh,SunOS,			7,40,30,8,3
+1995,shell,csh,SunOS,			7,40,30,8,3
+1996,shell,ksh,,			7,40,6,8,3
+1997,shell,ksh,,			7,40,10,8,3
+1998,shell,ksh,,			7,30,5,8,3
+1999,shell,csh,,			7,20,5,6,3
+2000,shell,Bash,,			7,40,10,6,4
+2001,shell,Bash,,			7,30,20,8,4
+2002,shell,Bash,,			6,10,5,5,4
+2003,shell,Bash,,			6,10,5,5,4
+2004,shell,Bash,,			6,10,5,5,4
+2005,shell,Bash,,			6,10,5,5,4
+2006,shell,Bash,,			6,10,5,5,4
+2006,shell,Scsh,,			5,5,5,5,5
+2007,shell,Bash,,			7,30,5,6,4
+2008,shell,Bash,,			7,30,5,6,4
+2009,shell,Bash,,			7,5,5,6,4
+2010,shell,Bash,,			7,5,5,6,4
+2011,shell,Bash,,			6,4,5,6,4
+1987,Lisp,AutoLISP,AutoCAD v2.6.2,	2,50,20,4,5
+1988,Lisp,AutoLISP,AutoCAD R9,		4,50,20,4,5
+1989,Lisp,AutoLISP,AutoCAD R10,		5,20,10,3,5
+1990,Lisp,AutoLISP,AutoCAD R11,		5,10,10,3,5
+1989,Lisp,Emacs Lisp,18,		3,40,5,2,5
+1990,Lisp,Emacs Lisp,18.54,		3,40,5,3,5
+1991,Lisp,Emacs Lisp,,			3,40,5,4,5
+1992,Lisp,Emacs Lisp,,			4,40,5,3,5
+1993,Lisp,Emacs Lisp,,			4,10,3,4,5
+1994,Lisp,Emacs Lisp,,			4,10,3,4,5
+1995,Lisp,Emacs Lisp,,			4,3,3,4,5
+1996,Lisp,Emacs Lisp,,			4,3,3,4,5
+1997,Lisp,Emacs Lisp,,			4,3,3,4,5
+1998,Lisp,Emacs Lisp,,			4,3,3,4,5
+1999,Lisp,Emacs Lisp,,			4,8,3,4,5
+2000,Lisp,Emacs Lisp,,			4,3,3,4,5
+2001,Lisp,Emacs Lisp,,			4,3,3,4,5
+2002,Lisp,Emacs Lisp,,			4,3,3,4,5
+2003,Lisp,Emacs Lisp,,			4,3,3,4,5
+2004,Lisp,Emacs Lisp,,			4,3,3,4,5
+2005,Lisp,Emacs Lisp,,			4,10,10,4,5
+2006,Lisp,Emacs Lisp,,			4,10,10,4,5
+2007,Lisp,Emacs Lisp,,			4,4,4,4,5
+2008,Lisp,Emacs Lisp,,			4,4,4,4,5
+2009,Lisp,Emacs Lisp,23,		4,10,5,4,5
+2010,Lisp,Emacs Lisp,23,		4,4,4,4,5
+2011,Lisp,Emacs Lisp,24,		4,4,4,4,5
+1991,Lisp,Common Lisp,CLtL2,		2,15,4,2,25
+1992,Lisp,Common Lisp,XLISP,		4,12,4,4,11
+2005,Lisp,Common Lisp,ANSI,		4,30,16,5,20
+2006,Lisp,Common Lisp,ANSI,		5,30,30,7,20
+2007,Lisp,Common Lisp,ANSI,		6,40,50,9,20
+2008,Lisp,Common Lisp,ANSI,		7,40,50,9,20
+2009,Lisp,Common Lisp,ANSI,		8,30,40,5,20
+2010,Lisp,Common Lisp,ANSI,		8,30,16,6,20
+2011,Lisp,Common Lisp,ANSI,		8,35,50,6,20
+1988,C++,C++,g++,			3,12,20,3,6
+1989,C++,C++,g++,			4,15,30,4,6
+1990,C++,C++,g++,			5,12,30,6,6
+1994,Perl,Perl,4,			4,10,5,4,5
+1995,Perl,Perl,4,			6,40,30,6,5
+1996,Perl,Perl,5,			7,50,60,8,5
+1997,Perl,Perl,5,			8,50,50,9,5
+1998,Perl,Perl,5,			8,20,20,9,5
+1999,Perl,Perl,5,			8,10,40,5,5
+2000,Perl,Perl,5,			6,0,0,0,0
+2001,Perl,Perl,5,			6,2,10,6,5
+2002,Perl,Perl,5,			6,2,10,6,5
+2003,Perl,Perl,5,			6,0,0,0,0
+2004,Perl,Perl,5,			6,0,0,0,0
+2005,Perl,Perl,5,			6,10,10,6,5
+2006,Perl,Perl,5,			6,0,0,0,0
+2007,Perl,Perl,5,			6,0,0,0,0
+2008,Perl,Perl,5,			6,0,0,0,0
+2009,Perl,Perl,5,			6,0,0,0,0
+2010,Perl,Perl,5,			6,3,20,5,5
+2011,Perl,Perl,5,			6,0,0,0,0
+1997,Java,Java,JDK 1.1,			4,10,10,4,4
+1998,Java,Java,JDK 1.2,			5,10,10,4,4
+1999,Java,Java,JDK 1.2,			4,0,0,0,0
+2000,Java,Java,JDK 1.2,			5,10,10,6,4
+1999,Python,Python,1.5,			5,45,50,7,5
+2000,Python,Python,1.5,			7,40,40,8,5
+2001,Python,Python,2.1,			7,40,40,9,5
+2002,Python,Python,2.2,			8,50,40,8,5
+2003,Python,Python,2.2,			8,50,40,8,5
+2004,Python,Python,2.3,			9,50,40,9,5
+2005,Python,Python,2.4,			10,50,40,9,5
+2006,Python,Python,2.4,			8,50,40,4,5
+2007,Python,Python,2.5,			7,0,0,0,0
+2008,Python,Python,2.5,			6,0,0,0,0
+2009,Python,Python,2.5,			5,0,0,0,0
+2010,Python,Python,2.6,			6,2,20,4,5
+2011,Python,Python,2.6,			6,8,30,6,5
+2000,JavaScript,JavaScript,1.5,		4,8,20,4,5
+2001,JavaScript,JavaScript,1.5,		4,10,20,5,5
+2002,JavaScript,JavaScript,1.5,		4,5,5,4,5
+2003,JavaScript,JavaScript,1.5,		4,0,0,0,0
+2004,JavaScript,JavaScript,1.5,		4,0,0,0,0
+2005,JavaScript,JavaScript,1.5,		4,0,0,0,0
+2006,JavaScript,JavaScript,1.7,		6,20,20,7,5
+2007,JavaScript,JavaScript,1.7,		9,30,30,9,5
+2008,JavaScript,JavaScript,1.7,		9,30,30,9,5
+2009,JavaScript,JavaScript,1.8,		9,8,20,9,5
+2010,JavaScript,JavaScript,1.8,		9,10,20,8,5
+2011,JavaScript,JavaScript,1.8,		9,12,10,8,5
+2006,Ruby,Ruby,1.8,			6,20,30,7,5
+2007,Ruby,Ruby,1.8,			5,5,20,6,5
+
+Key:
+ - I'm ultra-conservative with rating my own skills. 
+ - Mastery level 1 means learning; e.g., see 1982.
+ - Mastery levels 9 and 10 are for kernel & compiler hackers, which in early
+1990's I contributed patches to Linux and in mid-90's, FreeBSD customization.
+ - Complexity 10 implies things which many believe to be impossible.
+ - Regarding language power, for Common Lisp I've settled for a mere 2x
+because larger makes the graph too ugly.
+ - Zeros in right-most columns indicate years without touching that
+language, but such an entry offers continuity for graph coloring.
+
+Notes:
+ - This includes extracurricular activities and long hours at start-ups. 
+For many years, hours sum to significantly more than typical US work week.
+ - Worked full-time through college: Unix sys-admin, CAD consultant and
+started software company offering AutoCAD extensions for civil engineers.
+ - Other languages are omitted due to too little exposure (PHP, Assembly),
+too niche-oriented for context of web or systems programming (LaTeX, TeX,
+R, Stata, XQuery), etc.
