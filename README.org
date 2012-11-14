@@ -1,4 +1,4 @@
-Skills-Graph
+#+TITLE: Skills-Graph
 
 * Intro
 This is an example of [[http://www.xach.com/][Xach]]'s [[https://github.com/xach/wormtrails][wormtrails]] illustrating skills over time.
