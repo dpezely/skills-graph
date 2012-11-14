@@ -1,7 +1,9 @@
+Skills-Graph
+
 * Intro
 This is an example of [[http://www.xach.com/][Xach]]'s [[https://github.com/xach/wormtrails][wormtrails]] illustrating skills over time.
 
-See generated streamgraph on [[http://pezely.com/daniel/][pezely.com/daniel]].
+See generated streamgraph: [[http://pezely.com/daniel/languages]].
 
 * Generating a new Streamgraph
 This has only been tested with [[http://sbcl.org/platform-table.html][SBCL]] compiler and packages installed by [[http://www.quicklisp.org/][Quicklisp]].
@@ -29,6 +31,6 @@ Append closing HTML tags:
 Color selection changes depending upon number of total data points, not
 unique labels.  Color values therefore seem to be hit or miss, but actually,
 it's based upon a 360 degree color wheel within the HSV space, locked-down
-to the hue dimension.  Using multiples of golden ration 1.618 seem to offer
+to the hue dimension.  Using multiples of golden ratio 1.618 seem to offer
 fairness in color diversity, but experimentation is required for each year's
 set of values.
