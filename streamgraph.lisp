@@ -4,7 +4,7 @@
 (require 'fare-csv)
 (require 'split-sequence)
 
-(defparameter *skills-path* #P"/Users/daniel/resume/")
+(defparameter *skills-path* #P".")
 
 (defparameter wormtrails:*default-name* "Programming Skills")
 (defparameter wormtrails:*bucket-width* 40)
