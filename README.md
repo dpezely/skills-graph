@@ -2,17 +2,23 @@ Skills-Graph
 ============
 
 ## Intro
-This is an example of [http://www.xach.com/](Xach)'s [https://github.com/xach/wormtrails](wormtrails) illustrating skills over time.
+This is an example of [Xach](http://www.xach.com/)'s [wormtrails](https://github.com/xach/wormtrails) illustrating skills over time.
 
 See generated streamgraph: http://pezely.com/daniel/languages
 
 ## Generating a new Streamgraph
-This has only been tested with [http://sbcl.org/platform-table.html](SBCL) compiler and packages installed by [http://www.quicklisp.org/](Quicklisp).
+This has only been tested with [SBCL](http://sbcl.org/platform-table.html) compiler and packages installed by [Quicklisp](http://www.quicklisp.org/).
 
 ## Dependencies other than SBCL & Quicklisp
+Run:
+
+	mkdir -p ~/.local/share/common-lisp/source
+	cd ~/.local/share/common-lisp/source/
     git clone https://github.com/xach/wormtrails.git
     git clone https://github.com/xach/geometry.git
-    sbcl --eval "(mapcar 'ql:quickload '(vecto zpb-ttf html-template split-sequence fare-csv))" --eval '(quit)'
+    sbcl \
+	  --eval "(mapcar 'ql:quickload '(vecto zpb-ttf html-template split-sequence fare-csv))" \
+	  --eval '(quit)'
     sbcl --eval "(require 'wormtrails)" --eval '(quit)'
 
 ## Edit Content
